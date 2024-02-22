@@ -27,7 +27,14 @@ app.get("/", (request, response) => {
 });
 
 //to read
-app.get();
+app.get("/golfbook", async (request, response) => {
+  const result = await db.query(`
+  CREATE TABLE IF NOT EXISTS golfbook (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(255),
+    golfcoursename VARCHAR(255),
+  )`);
+});
 
 //to add
 app.post();
