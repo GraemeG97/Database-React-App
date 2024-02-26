@@ -1,5 +1,6 @@
 export const golfCourses = [
   {
+    id: 1,
     name: "Pebble Beach",
     location: "California, USA",
     par: 72,
@@ -7,6 +8,7 @@ export const golfCourses = [
       "https://images.unsplash.com/photo-1562175614-0b0efe33c27a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
+    id: 2,
     name: "Old Course",
     location: "St Andrews, Scotland",
     par: 72,
@@ -14,6 +16,7 @@ export const golfCourses = [
       "https://images.unsplash.com/photo-1687291133565-767706032bed?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
+    id: 3,
     name: "Augusta National",
     location: "Georgia, USA",
     par: 72,
@@ -21,6 +24,7 @@ export const golfCourses = [
       "https://media.stewarttravel.co.uk/media/repository/Golf/golfcourses/USA/Georgia/AugustaNational/Augusta-National.jpg",
   },
   {
+    id: 4,
     name: "TPC Sawgrass",
     location: "Florida, USA",
     par: 72,

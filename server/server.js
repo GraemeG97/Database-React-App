@@ -37,10 +37,16 @@ app.get("/golfbook", async (request, response) => {
 });
 
 //to add
-app.post();
+app.post("/golfbook", async (request, response) => {
+  try {
+    let query = `INTERT INTO golfbook`;
+  } catch (err) {
+    response.status(400).json({ error: err.message });
+  }
+});
 
 //to update
-app.put();
+//app.put();
 
 //to delete
-app.delete();
+//app.delete();
